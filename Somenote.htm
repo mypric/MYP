@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>我的一切</title>
+    <meta charset="gb2312"></meta>
+                     
+    <style>
+		body{
+			text-align: center;
+			background-color: antiquewhite;
+			background-image:url(img/318752-160101103535100.jpg);
+			background-size: 100%;
+		}
+		#nav {
+			overflow:hidden;
+			width:1012px;
+			height:25px;
+			margin:0 auto;
+			padding: 0px;
+			margin-bottom: 50px;
+		}
+		#nav a { 
+			display: block; 
+			font-size: 20px;
+			width: 100%; 
+			height: 100%;
+			border: 0px 1px;
+			border-left-color: indigo;
+		}
+		#nav li{
+			text-align:center;
+			list-style: none;
+			width:200px;
+			height:25px;
+			float:left; 	
+			background-color:white;
+			border-right: 1px solid #152C97;
+			border-left: 1px solid #152C97;
+		}
+		
+		#nav a:link{}
+		#nav a:visitd{color:grey}
+		#nav a:hover{background-color:midnightblue;color:azure;}
+		#nav a:action{}	
+			
+		
+		div{
+			border: 0px solid #160707;
+			margin: auto;
+			
+		}
+		a{
+			text-align: center;
+			text-decoration: none;
+			color:#1C145C;
+		}
+		form{
+			text-align: left;
+			margin:auto;
+			overflow: hidden;
+			width: 700px;
+		}
+		.l{
+			border:5px solid  #59D335;
+			background-color: #B3FB48;
+			margin: 2px 2px;
+		}
+		input{
+			font-size: 30px;
+		}
+		textarea{
+			font-size: 30px;
+			background-color:burlywood;
+			
+		}
+		
+	</style>	
+</head>
+<body>
+    <ul id="nav">
+		<li><a href="Indelible.htm" >Indelible</a> </li>
+		<li><a href="StillInMind.htm">StillInMind</a></li>
+		<li><a href="MemeryForever.htm">MemoryForever</a></li>
+		<li><a href="Myseft.htm">Myself </a></li>
+		<li><a href="Somenote.htm">Some note </a></li>
+	</ul>
+    <form>
+     	<label class="l" for="realname" style="font-size: 30px">姓&emsp;&emsp;名</label>
+     	<input type="text" id="realname" name="realname" />
+     	<br/>
+     	<label class="l" for="QQ" style="font-size: 30px">联系方式</label>
+     	<input type="text" id="QQ" name="QQ" />
+     	<br/>
+     	<label class="l" for="subject" style="font-size: 30px">专&emsp;&emsp;业</label>
+     	<input type="text" id="subject" name="subject" />
+     	<br/>
+     	<textarea class="xheditor" name="memo" rows="10" cols="30">留言</textarea>
+     </form>
+     
+     
+</body>
+</html>
